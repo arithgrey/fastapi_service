@@ -1,0 +1,38 @@
+# Entorno virtual de Pipenv
+/.venv/
+
+# Dependencias de Pipenv
+/Pipfile.lock
+
+# Directorio de Python generado
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Archivos de caché de pytest
+.cache/
+.pytest_cache/
+
+# Archivos locales de desarrollo
+.env
+.env.local
+.env.*.local
+
+# Entorno de construcción de Python
+.build/
+dist/
+venv/
+*.egg-info/
+
+# Archivos basura de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos basura de Linux y macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
