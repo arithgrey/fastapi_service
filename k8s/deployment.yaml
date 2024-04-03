@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: app_service_deployer:1.0
+        image: app_service_deployer:1.2
         ports:
         - containerPort: 8000

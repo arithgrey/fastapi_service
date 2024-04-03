@@ -1,3 +1,5 @@
+#test
+.pytest_cache
 # Entorno virtual de Pipenv
 /.venv/
 
