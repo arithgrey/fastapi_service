@@ -1,0 +1,30 @@
+# Archivos y directorios generados por sistemas de control de versiones
+.git
+.gitignore
+
+# Directorio de dependencias de Python local
+venv/
+.venv/
+
+# Directorio de dependencias de Node.js local
+node_modules/
+
+# Archivos de configuración local de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de configuración específicos de desarrollo
+.env
+.env.local
+
+# Archivos de registros y caché generados localmente
+logs/
+cache/
+temp/
+
+# Directorio de pruebas (si no necesitas incluir pruebas en la imagen)
+tests/
+
+# Otros archivos específicos de desarrollo que no son necesarios en producción
+ci/ 
